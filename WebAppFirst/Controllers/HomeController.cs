@@ -15,14 +15,14 @@ namespace WebAppFirst.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Yhtiön perustietojen kuvailua.";
+            ViewBag.Message = "Yhtiön perustietoja.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Yhteystietojamme:";
+            ViewBag.Message = "Yhteystiedot:";
 
             return View();
         }

@@ -12,7 +12,7 @@ namespace WebAppFirst.Controllers
         // GET: Products
         public ActionResult Index()
         {
-            northwindEntities db = new northwindEntities();
+            northwindEntities db = new northwindEntities(); //fhdhdhdh
             List<Products> model = db.Products.ToList();
             db.Dispose();
             return View(model);
